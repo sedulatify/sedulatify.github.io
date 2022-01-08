@@ -1,0 +1,342 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html{
+  background-color: #CFCFCF;
+}
+
+
+#stuff{
+  margin:0;
+}
+
+h2{
+  font-size:20px;
+  margin-right:20px;
+}
+
+p{
+  font-size:17px;
+  font-family: monospace;
+  width:70%;
+}
+
+img{
+  position:absolute;
+  margin:0;
+  margin-top:15px;
+  margin-left:50%; 
+  left:-217.6875px;
+  background-color: #5F8575;
+  text-align:center;
+  font-family:monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#desc{
+  height : 140px ;
+  position:absolute;
+  margin:0;
+  margin-left:2.5%;
+  margin-top:1200px;
+  background-color: #5F8575;
+  text-align:center;
+  width:95% ;
+  font-family:monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#out1{
+  height : 100px ;
+  position:absolute;
+  margin:0;
+  margin-left:2.5%;
+  margin-top:575px;
+  background-color: #5F8575;
+  text-align:center;
+  width:65% ;
+  font-family:monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#time1{
+  height : 100px ;
+  position:absolute;
+  margin:0;
+  margin-left:69.5%;
+  margin-top:575px;
+  background-color: #5F8575;
+  text-align:center;
+  width:28% ;
+  font-family:monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#out2{
+  height : 100px ;
+  position:absolute;
+  margin:0;
+  margin-left:2.5%;
+  margin-top:690px;
+  background-color: #5F8575;
+  text-align:center;
+  width:65% ;
+  font-family:monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#time2{
+  height : 100px ;
+  position:absolute;
+  margin:0;
+  margin-left:69.5%;
+  margin-top:690px;
+  background-color: #5F8575;
+  text-align:center;
+  width:28% ;
+  font-family:monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#out3{
+  height : 100px ;
+  position:absolute;
+  margin:0;
+  margin-left:2.5%;
+  margin-top:805px;
+  background-color: #5F8575;
+  text-align:center;
+  width:65% ;
+  font-family:monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#time3{
+  height : 100px ;
+  position:absolute;
+  margin:0;
+  margin-left:69.5%;
+  margin-top:805px;
+  background-color: #5F8575;
+  text-align:center;
+  width:28% ;
+  font-family:monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#out4{
+  height : 100px ;
+  position:absolute;
+  margin:0;
+  margin-left:2.5%;
+  margin-top:920px;
+  background-color: #5F8575;
+  text-align:center;
+  width:65% ;
+  font-family:monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#time4{
+  height : 100px ;
+  position:absolute;
+  margin:0;
+  margin-left:69.5%;
+  margin-top:920px;
+  background-color: #5F8575;
+  text-align:center;
+  width:28% ;
+  font-family:monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#out5{
+  height : 100px ;
+  position:absolute;
+  margin:0;
+  margin-left:2.5%;
+  margin-top:1035px;
+  background-color: #5F8575;
+  text-align:center;
+  width:65% ;
+  font-family:monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#time5{
+  height : 100px ;
+  position:absolute;
+  margin:0;
+  margin-left:69.5%;
+  margin-top:1035px;
+  background-color: #5F8575;
+  text-align:center;
+  width:28% ;
+  font-family:monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#timebox{
+  height : 50px ;
+  position:absolute;
+  margin:0;
+  margin-left:2.5%;
+  margin-top:130px;
+  background-color: #5F8575;
+  text-align:center;
+  width:95% ;
+  font-family:monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#workethicbox{
+  height : 50px ;
+  position:absolute;
+  margin:0;
+  margin-left:2.5%;
+  margin-top: 190px;
+  background-color: #5F8575;
+  text-align:center;
+  width:95% ;
+  font-family:monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+
+#task1{
+  height : 370px;
+  position:absolute;
+  margin:0;
+  margin-left:2.5%;
+  margin-top:190px;  
+  background-color: #5F8575;
+  text-align:center;
+  font-size:25px;   
+  width:15%;
+  font-family:monospace;
+}
+#task2{
+  height : 370px;
+  position:absolute;
+  margin:0;
+  margin-left:22.5%;
+  background-color: #5F8575;
+  text-align:center;
+  font-size:25px;   
+  width:15%;
+  margin-top:190px;  
+  font-family:monospace;
+}
+#task3{
+  height : 370px;
+  position:absolute;
+  margin:0;
+  margin-left:42.5%;
+  background-color: #5F8575;
+  text-align:center;
+  font-size:25px;   
+  width:15%;
+  font-family:monospace;
+  margin-top:190px;
+}
+#task4{
+  height : 370px;
+  position:absolute;
+  margin:0;
+  margin-left:62.5%;
+  margin-top:190px; 
+  background-color: #5F8575;
+  text-align:center;
+  font-size:25px;   
+  width:15%;
+  font-family:monospace;
+}
+#task5{
+  height : 370px;
+  position:absolute;
+  margin:0;
+  margin-left:82.5%;
+  margin-top:190px; 
+  background-color: #5F8575;
+  text-align:center;
+  font-size:25px;   
+  width:15%;
+  font-family:monospace;
+}
+
+h3{
+  font-size:50px;
+  margin-right:10px;
+}
+button{
+
+    position : absolute;
+    margin-top: 450px;
+}
+
+label{
+    font-size:20px;
+}
